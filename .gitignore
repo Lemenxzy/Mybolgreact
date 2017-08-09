@@ -1,0 +1,6 @@
+/node_modules/
+/.idea/
+/index.html
+/dist/
+/reactC
+*.DS_Store

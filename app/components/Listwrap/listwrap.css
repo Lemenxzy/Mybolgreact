@@ -1,0 +1,46 @@
+.listwrap_son{
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.listcontent{
+    background: #fff;
+    cursor: pointer;
+}
+
+.listcontent:hover{
+    box-shadow: 0px 0px 9px 0px #7b7b7b;
+    transition:0.4s ease all;
+    border-radius: 4px;
+}
+
+.listcontent *{
+    box-sizing: border-box;
+}
+
+.listcontent p{
+    margin-bottom: 10px;
+    color: #767676;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.listcontent h4{
+    padding: 10px;
+    font-size: 20px;
+    color:#333;
+}
+
+.listcontent div{
+    font-size: 14px;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.listcontent div h6{
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    padding-top: 20px;
+}

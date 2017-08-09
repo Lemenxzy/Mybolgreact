@@ -1,0 +1,168 @@
+
+/*关于*/
+.blogabout{
+    background: #333333;
+    height: 100px;
+    width: 100%;
+}
+
+
+.blogabout p{
+    line-height: 100px;
+    color:#fefefe;
+    text-align: center;
+}
+
+/*联系*/
+
+.telbox{
+    height: 150px;
+    background: #fefefe;
+    width: 100%;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.telbox .t_telbox{
+    width: 500px;
+    margin:0 auto;
+    color:#95989A;
+    font-size: 14px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.qq{
+    margin-left: 10px;
+}
+
+.qq:hover{
+    color:#3AB3FF;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+
+.email{
+    position: relative;
+}
+
+.email:hover{
+    cursor: pointer;
+    color:#E9DC51;
+    transition: all 0.4s ease;
+}
+
+.wechart{
+    position: relative;
+}
+
+.wechart:hover{
+    cursor: pointer;
+    color:#80D640;
+    transition: all 0.4s ease;
+}
+
+
+.wechart:hover .wechartbox{
+    display: block;
+}
+
+.wechartbox{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 18px;
+    top: -44px;
+    display: none;
+}
+
+.sanj2{
+    width: 0;
+    height: 0;
+    border-top:6px solid transparent;
+    border-left:6px solid transparent;
+    border-right:6px solid #ccc;
+    border-bottom: 6px solid transparent;
+    position: relative;
+    float: left;
+    margin-top: 44px;
+}
+
+.sanj2:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top:5px solid transparent;
+    border-left:5px solid transparent;
+    border-right:5px solid #fff;
+    border-bottom: 5px solid transparent;
+    top: -5px;
+    position: absolute;
+    right: -7px;
+}
+
+.erweimaimg{
+    width: 88px;
+    height: 88px;
+    background: url("./img/erweima.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+
+.footer{
+    text-align: center;
+    padding: 16px 0;
+}
+
+
+.hoverbox{
+    position: absolute;
+    left: -74px;
+    display: none;
+}
+
+.sanj{
+    width: 0;
+    height: 0;
+    border-top:6px solid transparent;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    border-bottom: 6px solid #ccc;
+    margin:0 auto;
+    position: relative;
+}
+.sanj:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top:5px solid transparent;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom: 5px solid #fff;
+    top: -3px;
+    position: absolute;
+    right: -5px;
+}
+
+
+.hoverbox p{
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.email:hover p{
+    color:#666;
+}
+
+.email:hover .hoverbox{
+    display: block;
+}

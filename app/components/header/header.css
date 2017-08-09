@@ -1,0 +1,159 @@
+.weblogo{
+    display:inline-block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: url("./img/logo.png");
+    background-size: 100% 100%;
+}
+
+.headerbox{
+    padding:6px 20px;
+    border-bottom: 1px solid rgba(216, 216, 216, 0.50);
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 1200px;
+    position: absolute;
+    top: 0;
+}
+
+.fixed{
+    position: fixed;
+    top:0;
+    background: #333;
+    z-index: 1000;
+}
+
+.navlist{
+    color:#b5b5b5;
+    padding: 8px 30px;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    transition: 0.25s;
+    webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.goodbox{
+    float: right;
+    line-height: 40px;
+}
+
+.good{
+    float: left;
+    color:#fda500;
+    font-size: 30px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.good:hover{
+    transition: 0.2s ease all;
+    color:#19bc8b;
+
+}
+
+.bad{
+    float: left;
+    color:#676767;
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+
+.goodbox span{
+    color:#fff;
+    float: left;
+    margin-left: 6px;
+}
+
+.navlist:hover,
+.navlist:focus {
+     color: #fff;
+ }
+
+
+.headerbox ul{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.headerbox ul li{
+    float: left;
+    color:#fff;
+    margin-left: 5px;
+}
+
+
+.fill{
+    color:#a972cb;
+    border-color: #a972cb;
+}
+
+.fill:hover,
+.fill:focus {
+   box-shadow: inset 0 0 0 106px #a972cb;
+   border-color: #a972cb;
+}
+
+
+.pulse{
+    color:#ef6eae;
+    border-color: #ef6eae;
+}
+.pulse:hover,
+.pulse:focus {
+   animation: pulse 1s;
+   box-shadow: 0 0 0 2em rgba(239,110,174,0);
+   border-color: #ef6eae;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 #ef6eae; }
+}
+
+.close{
+    color:#ff7f82;
+    border-color: #ff7f82;
+}
+
+.close:hover,
+.close:focus {
+   box-shadow:
+           inset -106px 0 0 0 #ff7f82,
+           inset 106px 0 0 0 #ff7f82;
+}
+
+
+.raise{
+    color:#ffa260;
+    border-color: #ffa260;
+}
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #ffa260;
+    transform: translateY(-0.25em);
+}
+
+.up{color:#e4cb58;}
+.up:hover,
+.up:focus {
+   box-shadow: inset 0 106px 0 0 #e4cb58;
+}
+
+.slide{color:#8fc866;border-color: #8fc866;}
+.slide:hover,
+.slide:focus {
+   box-shadow: inset 106px 0 0 0 #8fc866;
+}
+
+
+
+
+
+
